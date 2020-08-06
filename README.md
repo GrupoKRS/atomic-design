@@ -43,3 +43,11 @@
 ## Ideias
 
 - Ter protótipo de baixa fidelidade para as páginas do sistema
+
+## Referências
+
+https://bradfrost.com/blog/post/atomic-web-design/
+
+https://dennisreimann.de/articles/atomic-design-is-messy.html
+
+https://patternlab.io/demos/
