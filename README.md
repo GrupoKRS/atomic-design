@@ -27,18 +27,30 @@
       
 - **Organismos** - Agrupamentos de moléculas, átomos ou elementos HTML não reutilizáveis. Um organismo não pode conter outro organismo.
 
-- **Página** - Agrupamento de organismos adicionando o comportamento e a lógica de negócio.
+- **Template** - Agrupamento de organismos sem a lógica da aplicação (sem redux, requisição, funções de tratamento de estado e etc)
+
+- **Página** - Mescla o template a lógica do negócio.
 
 
 ## Divisão de pastas
 
 - Átomos - Tipos (buttons, inputs, links, etc)
 
-- Molécula - **A DEFINIR**
+- Molécula - Separados por página (PostInternal, Contact, Blog, Navbar). Para moléculas globais, incluir na pasta globals e categorizar por organismo. 
 
-- Organismos - **A DEFINIR**
+- Organismos - Separados por página (PostInternal, Contact, Blog, Navbar). Para organismos globais, incluir na pasta globals.
+
+- Template - Separado pelo next (rota)
 
 - Páginas - Separada pelo next (rota)
+
+# Repositórios com testes do atomic design
+
+- https://github.com/lBrunol/atomic-design-blog
+
+- https://github.com/marcospedro97/atomic
+
+- https://github.com/jpsant/atomic-design
 
 ## Ideias
 
